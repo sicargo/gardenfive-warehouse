@@ -27,15 +27,15 @@
 </head>
 <body class="bg-[#f8fafc] text-slate-800 antialiased min-h-screen flex flex-col justify-between pb-24 sm:pb-0">
 
-  <!-- 상단 네비게이션 헤더 -->
+  <!-- 상단 헤더 -->
   <header class="bg-white/95 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50">
-    <div class="max-w-2xl mx-auto px-4 py-3.5 flex justify-between items-center">
-      <a href="index.html" class="flex items-center gap-1.5 text-slate-600 hover:text-slate-900 font-bold text-sm transition">
+    <div class="max-w-2xl sm:max-w-3xl mx-auto px-4 py-3.5 sm:py-4 flex justify-between items-center">
+      <a href="index.html" class="flex items-center gap-1.5 text-slate-600 hover:text-slate-900 font-bold text-sm sm:text-base transition">
         <span>←</span> <span>메인 목록</span>
       </a>
       <div class="flex items-center gap-2">
-        <span class="text-xs font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">주차 규정</span>
-        <a href="tel:010-5024-8456" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow-sm transition">
+        <span class="text-xs sm:text-sm font-bold text-amber-700 bg-amber-50 px-2.5 py-1 rounded border border-amber-200 whitespace-nowrap">주차 규정</span>
+        <a href="tel:010-5024-8456" class="bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-bold px-3.5 py-1.5 rounded-xl shadow-sm transition whitespace-nowrap">
           전화 상담
         </a>
       </div>
@@ -43,77 +43,77 @@
   </header>
 
   <!-- 메인 본문 -->
-  <main class="max-w-2xl mx-auto px-4 py-6 w-full space-y-6">
+  <main class="max-w-2xl sm:max-w-3xl mx-auto px-4 py-6 sm:py-8 w-full space-y-6 sm:space-y-8">
 
     <!-- 제목 배너 -->
-    <section class="bg-white p-5 sm:p-6 rounded-2xl shadow-sm border border-slate-200/80">
-      <div class="flex items-center gap-2 mb-2">
-        <span class="bg-rose-50 text-rose-700 text-xs font-extrabold px-2.5 py-0.5 rounded border border-rose-100">화물차 필독 규정</span>
-        <span class="bg-slate-100 text-slate-700 text-xs font-bold px-2 py-0.5 rounded">라이프동 · 툴동 완벽 비교</span>
+    <section class="bg-white p-5 sm:p-7 rounded-2xl shadow-sm border border-slate-200/80">
+      <div class="flex items-center gap-2 mb-2.5">
+        <span class="bg-rose-50 text-rose-700 text-xs sm:text-sm font-extrabold px-2.5 py-0.5 rounded border border-rose-100 whitespace-nowrap">화물차 필독 규정</span>
+        <span class="bg-slate-100 text-slate-700 text-xs sm:text-sm font-bold px-2.5 py-0.5 rounded whitespace-nowrap">라이프동 · 툴동 비교</span>
       </div>
-      <h1 class="text-xl sm:text-2xl font-extrabold text-slate-900 leading-snug tracking-tight mb-2">
+      <h1 class="text-xl sm:text-3xl font-extrabold text-slate-900 leading-snug tracking-tight mb-2 sm:mb-3">
         🚧 가든파이브 차량 진입 제한 높이 안내
       </h1>
-      <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+      <p class="text-xs sm:text-base text-slate-600 leading-relaxed">
         가든파이브는 건물과 게이트에 따라 허용 진입 높이가 엄격히 다릅니다. 보유 차종에 맞는 전용 게이트를 사전에 반드시 확인하세요.
       </p>
     </section>
 
     <!-- 3대 주요 게이트 현장 실사진 및 진입 기준 -->
-    <section class="space-y-4">
-      <h2 class="text-base font-bold text-slate-900 flex items-center gap-2">
+    <section class="space-y-5 sm:space-y-6">
+      <h2 class="text-base sm:text-xl font-bold text-slate-900 flex items-center gap-2">
         <span>📸</span> <span>게이트별 제한 높이 및 허용 차종</span>
       </h2>
 
       <!-- 1. 라이프 1번 게이트 -->
-      <div class="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-3">
-        <div class="flex items-center justify-between">
-          <span class="bg-blue-50 text-blue-700 text-xs font-extrabold px-2.5 py-0.5 rounded border border-blue-100">라이프동 1번 게이트</span>
-          <span class="text-xs font-extrabold text-rose-600 bg-rose-50 px-2 py-0.5 rounded border border-rose-100">최고 높이 2.3m</span>
+      <div class="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-3.5">
+        <div class="flex items-center justify-between gap-2">
+          <span class="bg-blue-50 text-blue-700 text-xs sm:text-sm font-extrabold px-2.5 py-1 rounded border border-blue-100 whitespace-nowrap">라이프동 1번 게이트</span>
+          <span class="text-xs sm:text-sm font-extrabold text-rose-600 bg-rose-50 px-2.5 py-1 rounded border border-rose-100 whitespace-nowrap">최고 높이 2.3m</span>
         </div>
         <div class="overflow-hidden rounded-xl border border-slate-200 bg-slate-100 aspect-video">
           <img src="./parking-gate-01.jpg" alt="가든파이브 라이프 1번 게이트 제한높이 2.3m" class="w-full h-full object-cover">
         </div>
-        <div class="space-y-1.5 text-xs text-slate-600 leading-relaxed">
-          <p class="font-bold text-slate-900 text-sm">일반 승용차 및 백화점·몰 방문객 전용 게이트</p>
+        <div class="space-y-1.5 text-xs sm:text-base text-slate-600 leading-relaxed">
+          <p class="font-bold text-slate-900 text-sm sm:text-lg">일반 승용차 및 백화점·몰 방문객 전용 게이트</p>
           <p>• NC백화점, 현대시티몰 쇼핑 고객 및 일반 승용차는 1, 2번 게이트 모두 이용 가능합니다.</p>
           <p class="text-rose-600 font-semibold">• 2.3m를 초과하는 탑차 및 화물차는 진입이 불가하므로 2번 게이트로 우회해야 합니다.</p>
         </div>
       </div>
 
       <!-- 2. 라이프 2번 게이트 -->
-      <div class="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-3">
-        <div class="flex items-center justify-between">
-          <span class="bg-emerald-50 text-emerald-700 text-xs font-extrabold px-2.5 py-0.5 rounded border border-emerald-100">라이프동 2번 게이트</span>
-          <span class="text-xs font-extrabold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-100">최고 높이 2.7m</span>
+      <div class="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-3.5">
+        <div class="flex items-center justify-between gap-2">
+          <span class="bg-emerald-50 text-emerald-700 text-xs sm:text-sm font-extrabold px-2.5 py-1 rounded border border-emerald-100 whitespace-nowrap">라이프동 2번 게이트</span>
+          <span class="text-xs sm:text-sm font-extrabold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded border border-emerald-100 whitespace-nowrap">최고 높이 2.7m</span>
         </div>
         <div class="overflow-hidden rounded-xl border border-slate-200 bg-slate-100 aspect-video">
           <img src="./parking-gate-02.jpg" alt="가든파이브 라이프 2번 게이트 제한높이 2.7m" class="w-full h-full object-cover">
         </div>
-        <div class="space-y-1.5 text-xs text-slate-600 leading-relaxed">
-          <p class="font-bold text-slate-900 text-sm">화물 조업 차량 및 3.5톤 마이티 전용 게이트</p>
+        <div class="space-y-2 text-xs sm:text-base text-slate-600 leading-relaxed">
+          <p class="font-bold text-slate-900 text-sm sm:text-lg">화물 조업 차량 및 3.5톤 마이티 전용 게이트</p>
           <p>• <strong>마이티 3.5톤(단축)</strong> 및 일반 탑차 화물 차량은 반드시 2번 게이트를 통해 지하 2층 조업 하역장으로 진입합니다.</p>
           <p>• 지하 2층 하역 구역에서 짐을 내린 뒤 대형 화물 승강기를 통해 지상 상층부로 이동 가능합니다.</p>
           
           <!-- 시인성을 높인 주차 규정 안내 박스 -->
-          <div class="mt-2.5 p-3 bg-amber-50/90 rounded-xl border border-amber-200 text-slate-800 text-xs font-medium leading-snug">
-            <span class="text-amber-700 font-bold">⚠️ 주차 주의사항:</span><br>
-            지하 3·4·5층 일반 주차 구역은 <strong>2.3m 제한</strong>이 적용되므로 화물 차량은 반드시 <strong>지하 2층 조업 하역 구역</strong>을 이용해 주시기 바랍니다.
+          <div class="mt-2.5 p-3.5 bg-amber-50 rounded-xl border border-amber-200 text-slate-900 text-xs sm:text-sm font-medium leading-relaxed">
+            <span class="text-amber-800 font-bold">⚠️ 주차 주의사항:</span><br>
+            지하 4·5층 일반 주차 구역은 <strong>2.5m 제한</strong>이 적용되므로 화물 차량은 반드시 <strong>지하 2층 조업 하역 구역</strong>을 이용해 주시기 바랍니다.
           </div>
         </div>
       </div>
 
       <!-- 3. 툴동 동측 주차장 (D·E존) -->
-      <div class="bg-white p-4 sm:p-5 rounded-2xl border border-slate-200/80 shadow-sm space-y-3">
-        <div class="flex items-center justify-between">
-          <span class="bg-amber-50 text-amber-700 text-xs font-extrabold px-2.5 py-0.5 rounded border border-amber-100">툴동 동측 주차장 (D·E구역)</span>
-          <span class="text-xs font-extrabold text-amber-700 bg-amber-50 px-2 py-0.5 rounded border border-amber-100">화물차 제한 높이 2.8m</span>
+      <div class="bg-white p-4 sm:p-6 rounded-2xl border border-slate-200/80 shadow-sm space-y-3.5">
+        <div class="flex items-center justify-between gap-2">
+          <span class="bg-amber-50 text-amber-700 text-xs sm:text-sm font-extrabold px-2.5 py-1 rounded border border-amber-100 whitespace-nowrap">툴동 동측 주차장 (D·E구역)</span>
+          <span class="text-xs sm:text-sm font-extrabold text-amber-700 bg-amber-50 px-2.5 py-1 rounded border border-amber-100 whitespace-nowrap">화물차 제한 2.8m</span>
         </div>
         <div class="overflow-hidden rounded-xl border border-slate-200 bg-slate-100 aspect-video">
           <img src="./parking-gate-03.jpg" alt="가든파이브 툴동 동측주차장 D·E존 제한높이 2.8m" class="w-full h-full object-cover">
         </div>
-        <div class="space-y-1.5 text-xs text-slate-600 leading-relaxed">
-          <p class="font-bold text-slate-900 text-sm">지상 6·7층 드라이브인 램프 진입 전용 게이트</p>
+        <div class="space-y-1.5 text-xs sm:text-base text-slate-600 leading-relaxed">
+          <p class="font-bold text-slate-900 text-sm sm:text-lg">지상 6·7층 드라이브인 램프 진입 전용 게이트</p>
           <p>• 지상 6층·7층 하역장으로 올라가는 화물 차량은 반드시 <strong>동측 주차장(D·E존) 화물 전용 진입로</strong>를 이용해야 합니다.</p>
           <p>• 최대 2.8m 높이까지만 허용되므로, 사전에 화물차 높이를 확인 부탁드립니다.</p>
           <p class="text-blue-700 font-semibold">• 툴동 서측 주차장은 지하 주차장으로만 연결되는 일반 승용차 전용입니다.</p>
@@ -122,90 +122,90 @@
 
     </section>
 
-    <!-- 차종별 진입 가능 여부 체크표 (1톤 표준 탑차 삭제 완료) -->
-    <section class="bg-white p-5 sm:p-6 rounded-2xl shadow-sm border border-slate-200/80">
-      <h2 class="text-base font-bold text-slate-900 mb-3 flex items-center gap-2">
+    <!-- 차종별 게이트 진입 가이드 표 (모바일/PC 맞춤 정렬) -->
+    <section class="bg-white p-5 sm:p-7 rounded-2xl shadow-sm border border-slate-200/80">
+      <h2 class="text-base sm:text-xl font-bold text-slate-900 mb-3 sm:mb-4 flex items-center gap-2">
         <span>📋</span> <span>차종별 게이트 진입 가이드</span>
       </h2>
       <div class="overflow-x-auto">
-        <table class="w-full text-xs text-center border-collapse">
+        <table class="w-full text-xs sm:text-sm text-center border-collapse">
           <thead>
-            <tr class="bg-slate-100 text-slate-700">
-              <th class="p-2.5 font-bold text-left">차종 구분</th>
-              <th class="p-2.5 font-bold">라이프 1번 (2.3m)</th>
-              <th class="p-2.5 font-bold">라이프 2번 (2.7m)</th>
-              <th class="p-2.5 font-bold">툴동 동측 (2.8m)</th>
+            <tr class="bg-slate-100 text-slate-800">
+              <th class="p-3 font-bold text-left whitespace-nowrap">차종 구분</th>
+              <th class="p-3 font-bold whitespace-nowrap">라이프 1번<br class="sm:hidden"><span class="text-[11px] sm:text-xs text-slate-500">(2.3m)</span></th>
+              <th class="p-3 font-bold whitespace-nowrap">라이프 2번<br class="sm:hidden"><span class="text-[11px] sm:text-xs text-slate-500">(2.7m)</span></th>
+              <th class="p-3 font-bold whitespace-nowrap">툴동 동측<br class="sm:hidden"><span class="text-[11px] sm:text-xs text-slate-500">(2.8m)</span></th>
             </tr>
           </thead>
-          <tbody class="divide-y divide-slate-100 text-slate-600">
+          <tbody class="divide-y divide-slate-100 text-slate-700">
             <tr>
-              <td class="p-2.5 font-semibold text-left text-slate-900">승용차 · 카니발 · 스타렉스</td>
-              <td class="p-2.5 text-emerald-600 font-bold">가능</td>
-              <td class="p-2.5 text-emerald-600 font-bold">가능</td>
-              <td class="p-2.5 text-emerald-600 font-bold">가능</td>
+              <td class="p-3 font-semibold text-left text-slate-900 whitespace-nowrap">승용·카니발·스타렉스</td>
+              <td class="p-3 text-emerald-600 font-bold whitespace-nowrap">가능</td>
+              <td class="p-3 text-emerald-600 font-bold whitespace-nowrap">가능</td>
+              <td class="p-3 text-emerald-600 font-bold whitespace-nowrap">가능</td>
             </tr>
-            <tr class="bg-slate-50/50">
-              <td class="p-2.5 font-semibold text-left text-slate-900">1톤 지하진입용 저상 탑차</td>
-              <td class="p-2.5 text-emerald-600 font-bold">가능</td>
-              <td class="p-2.5 text-emerald-600 font-bold">가능</td>
-              <td class="p-2.5 text-emerald-600 font-bold">가능</td>
+            <tr class="bg-slate-50/60">
+              <td class="p-3 font-semibold text-left text-slate-900 whitespace-nowrap">1톤 저상 탑차 (지하진입)</td>
+              <td class="p-3 text-emerald-600 font-bold whitespace-nowrap">가능</td>
+              <td class="p-3 text-emerald-600 font-bold whitespace-nowrap">가능</td>
+              <td class="p-3 text-emerald-600 font-bold whitespace-nowrap">가능</td>
             </tr>
             <tr>
-              <td class="p-2.5 font-semibold text-left text-slate-900">마이티 3.5톤 (단축)</td>
-              <td class="p-2.5 text-rose-600 font-bold">불가</td>
-              <td class="p-2.5 text-emerald-600 font-bold">가능 (지하 2층)</td>
-              <td class="p-2.5 text-amber-600 font-bold">사전 문의</td>
+              <td class="p-3 font-semibold text-left text-slate-900 whitespace-nowrap">마이티 3.5톤 (단축)</td>
+              <td class="p-3 text-rose-600 font-bold whitespace-nowrap">불가</td>
+              <td class="p-3 text-emerald-600 font-bold whitespace-nowrap">가능 (지하2층)</td>
+              <td class="p-3 text-amber-600 font-bold whitespace-nowrap">사전 문의</td>
             </tr>
-            <tr class="bg-slate-50/50">
-              <td class="p-2.5 font-semibold text-left text-slate-900">2.8m 초과 대형 하이탑</td>
-              <td class="p-2.5 text-rose-600 font-bold">불가</td>
-              <td class="p-2.5 text-rose-600 font-bold">불가</td>
-              <td class="p-2.5 text-rose-600 font-bold">불가 (1층 야외 하역)</td>
+            <tr class="bg-slate-50/60">
+              <td class="p-3 font-semibold text-left text-slate-900 whitespace-nowrap">2.8m 초과 하이탑</td>
+              <td class="p-3 text-rose-600 font-bold whitespace-nowrap">불가</td>
+              <td class="p-3 text-rose-600 font-bold whitespace-nowrap">불가</td>
+              <td class="p-3 text-rose-600 font-bold whitespace-nowrap">불가 (1층 하역)</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <p class="text-[11px] text-slate-400 mt-2.5 text-left">
+      <p class="text-[11px] sm:text-xs text-slate-500 mt-3 text-left">
         ※ 특장 탑차나 루프랙 설치 차량은 진입 전 실제 높이를 반드시 실측하시기 바랍니다.
       </p>
     </section>
 
-    <!-- 차량에 맞는 창고 바로가기 링크 3개 -->
-    <section class="space-y-3">
-      <h2 class="text-base font-bold text-slate-900 flex items-center gap-2">
+    <!-- 창고 둘러보기 바로가기 3개 -->
+    <section class="space-y-3 sm:space-y-4">
+      <h2 class="text-base sm:text-xl font-bold text-slate-900 flex items-center gap-2">
         <span>🔗</span> <span>내 차에 맞는 가든파이브 창고 둘러보기</span>
       </h2>
 
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
-        <a href="life-basement.html" class="bg-white p-4 rounded-xl border border-slate-200 hover:border-blue-500 shadow-sm block transition text-center group">
-          <span class="text-xl">📦</span>
-          <p class="font-bold text-slate-900 text-xs mt-1 group-hover:text-blue-600">라이프 지하 창고</p>
-          <p class="text-[11px] text-slate-500 mt-0.5">지하 2층 하역장 연계</p>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <a href="life-basement.html" class="bg-white p-4 sm:p-5 rounded-xl border border-slate-200 hover:border-blue-500 shadow-sm block transition text-center group">
+          <span class="text-2xl sm:text-3xl">📦</span>
+          <p class="font-bold text-slate-900 text-sm sm:text-base mt-1.5 group-hover:text-blue-600">라이프 지하 창고</p>
+          <p class="text-xs sm:text-sm text-slate-500 mt-0.5">지하 2층 하역장 연계</p>
         </a>
 
-        <a href="life-ground.html" class="bg-white p-4 rounded-xl border border-slate-200 hover:border-emerald-500 shadow-sm block transition text-center group">
-          <span class="text-xl">🏢</span>
-          <p class="font-bold text-slate-900 text-xs mt-1 group-hover:text-emerald-600">라이프 지상 창고</p>
-          <p class="text-[11px] text-slate-500 mt-0.5">화물 승강기 완비 사무겸용</p>
+        <a href="life-ground.html" class="bg-white p-4 sm:p-5 rounded-xl border border-slate-200 hover:border-emerald-500 shadow-sm block transition text-center group">
+          <span class="text-2xl sm:text-3xl">🏢</span>
+          <p class="font-bold text-slate-900 text-sm sm:text-base mt-1.5 group-hover:text-emerald-600">라이프 지상 창고</p>
+          <p class="text-xs sm:text-sm text-slate-500 mt-0.5">화물 승강기 완비 사무겸용</p>
         </a>
 
-        <a href="tool-drivein.html" class="bg-white p-4 rounded-xl border border-slate-200 hover:border-amber-500 shadow-sm block transition text-center group">
-          <span class="text-xl">🚛</span>
-          <p class="font-bold text-slate-900 text-xs mt-1 group-hover:text-amber-600">툴동 드라이브인</p>
-          <p class="text-[11px] text-slate-500 mt-0.5">6·7층 탑차 직진입</p>
+        <a href="tool-drivein.html" class="bg-white p-4 sm:p-5 rounded-xl border border-slate-200 hover:border-amber-500 shadow-sm block transition text-center group">
+          <span class="text-2xl sm:text-3xl">🚛</span>
+          <p class="font-bold text-slate-900 text-sm sm:text-base mt-1.5 group-hover:text-amber-600">툴동 드라이브인</p>
+          <p class="text-xs sm:text-sm text-slate-500 mt-0.5">6·7층 탑차 직진입</p>
         </a>
       </div>
     </section>
 
     <!-- 진입 및 현장 상담 CTA -->
-    <section class="bg-slate-900 text-white p-5 rounded-2xl text-center space-y-2">
-      <h3 class="text-sm sm:text-base font-bold text-slate-100">
+    <section class="bg-slate-900 text-white p-5 sm:p-7 rounded-2xl text-center space-y-2 sm:space-y-3">
+      <h3 class="text-base sm:text-xl font-bold text-slate-100">
         차량 제원별 진입 여부 상담 및 공실 안내
       </h3>
-      <p class="text-xs text-slate-400">
+      <p class="text-xs sm:text-sm text-slate-400">
         차종과 높이를 알려주시면 가장 진입하기 편한 전용 호실을 안내해 드립니다.
       </p>
-      <a href="tel:010-5024-8456" class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-6 py-2.5 rounded-xl text-xs sm:text-sm transition shadow-md">
+      <a href="tel:010-5024-8456" class="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-extrabold px-6 sm:px-8 py-3 rounded-xl text-xs sm:text-base transition shadow-md">
         <span>📞</span> 010-5024-8456 진입 규격 상담
       </a>
     </section>
@@ -213,15 +213,15 @@
   </main>
 
   <!-- 푸터 -->
-  <footer class="bg-slate-900 text-slate-400 text-xs py-7 border-t border-slate-800">
-    <div class="max-w-2xl mx-auto px-4 leading-relaxed">
-      <p class="font-bold text-slate-200 text-xs mb-2">시카고공인중개사사무소</p>
-      <div class="space-y-1 text-[11px] text-slate-400">
+  <footer class="bg-slate-900 text-slate-400 text-xs sm:text-sm py-8 border-t border-slate-800">
+    <div class="max-w-2xl sm:max-w-3xl mx-auto px-4 leading-relaxed">
+      <p class="font-bold text-slate-200 text-sm sm:text-base mb-2">시카고공인중개사사무소</p>
+      <div class="space-y-1 text-xs sm:text-sm text-slate-400">
         <p>• 중개등록번호: 11710-2022-00213</p>
         <p>• 소재지: 서울특별시 송파구 충민로 66, 가든파이브라이프 F-9070, 71호</p>
         <p>• 문의: 010-5024-8456 / 02-6140-8456</p>
       </div>
-      <p class="text-slate-600 mt-4 pt-3 border-t border-slate-800 text-[10px]">
+      <p class="text-slate-600 mt-4 pt-3 border-t border-slate-800 text-[11px] sm:text-xs">
         © 2026 시카고공인중개사사무소. All rights reserved.
       </p>
     </div>
@@ -229,7 +229,7 @@
 
   <!-- 모바일 하단 고정 전화 버튼 -->
   <div class="fixed bottom-0 left-0 right-0 p-3 bg-white/95 backdrop-blur-md border-t border-slate-200 sm:hidden z-50">
-    <a href="tel:010-5024-8456" class="w-full bg-blue-600 active:bg-blue-700 text-white font-extrabold py-3 rounded-xl text-xs flex items-center justify-center gap-2 shadow-lg">
+    <a href="tel:010-5024-8456" class="w-full bg-blue-600 active:bg-blue-700 text-white font-extrabold py-3.5 rounded-xl text-sm flex items-center justify-center gap-2 shadow-lg">
       <span>📞</span> 차량 진입 여부 & 창고 공실 문의
     </a>
   </div>
