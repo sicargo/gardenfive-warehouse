@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gardenfive-warehouse.pages.dev/sitemap.xml
+Sitemap: https://gardenfive-warehouse.gdthedh.workers.dev/sitemap.xml
